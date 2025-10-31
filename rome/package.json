@@ -1,0 +1,35 @@
+{
+  "name": "@pool/rome",
+  "version": "0.2.2",
+  "description": "Tous les chemins mènent à Rome — registre unique (routes, API, entités, événements, fichiers, tags).",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "routes",
+    "registry",
+    "api",
+    "typescript",
+    "index",
+    "monorepo",
+    "utils"
+  ],
+  "author": "jEFFLEZ",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
