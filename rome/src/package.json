@@ -1,0 +1,41 @@
+{
+  "name": "@funeste38/rome",
+  "version": "1.2.6",
+  "description": "CLI Node.js minimaliste pour gérer les workspaces npm en parallèle (run/start/trio). Compatible Windows PowerShell, Bash et macOS.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "rome": "./bin/rome.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "npm",
+    "workspace",
+    "monorepo",
+    "automation",
+    "cross-platform",
+    "parallel",
+    "run",
+    "trio"
+  ],
+  "author": {
+    "name": "funeste38",
+    "email": "contact@funeste38.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jEFFLEZ/rome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jEFFLEZ/rome/issues"
+  },
+  "homepage": "https://github.com/jEFFLEZ/rome#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
