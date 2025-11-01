@@ -1,6 +1,6 @@
 {
   "name": "@pool/rome",
-  "version": "0.2.2",
+  "version": "1.2.6"
   "description": "Tous les chemins mènent à Rome — registre unique (routes, API, entités, événements, fichiers, tags).",
   "type": "module",
   "main": "dist/index.js",
@@ -33,3 +33,4 @@
     "typescript": "^5.9.3"
   }
 }
+
